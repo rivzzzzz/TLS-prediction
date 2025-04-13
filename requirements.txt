@@ -1,0 +1,8 @@
+pandas
+geopandas
+matplotlib
+scikit-learn
+geopandas
+seaborn
+catboost
+optuna
