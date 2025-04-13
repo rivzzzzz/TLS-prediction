@@ -2,7 +2,7 @@
 
 Predict tree plant functional type, genus, and species from terrestrial lidar scans tree features using hyper-param tuned CatBoost trained on FastFuel dataset
 
-### Getting started
+## Getting started
 1. Download the data and form the directory structure shown as follows.
 ```bash
 sprint_4/
@@ -34,16 +34,17 @@ sprint_4/
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the notebook 
-   > **Note:**  
-   > The notebook currently loads fine-tuned model weights.  
+3. Run the notebook  
+   
+   > **Please Note:**
+   > - The notebook currently loads trained model weights.  
    > - To replicate the training process, set `is_infer = False` in the `CFG` class.  
-   > - To perform hyperparameter tuning, set `n_hyper_trial > 0`.  
-   >  
-   > Additional details and explanations are included as comments within the notebook.
+   > - To perform hyperparameter tuning, set `n_hyper_trial > 0`. 
+   > 
+   > - Additional details and explanations are included as comments within the notebook.
 
-### Results
-<img width="706" alt="tls distribution plot" src="https://github.com/user-attachments/assets/6e025843-ce11-4de9-84e9-aee8ef5bcc52" />
+## Results
+<img width="716" alt="tls distribution plot" src="https://github.com/user-attachments/assets/6e025843-ce11-4de9-84e9-aee8ef5bcc52" />
 
 
 
